@@ -1,0 +1,98 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	background: rgba(200, 222, 255, 0.4);
+	width: 60%;
+	margin: 0 auto;
+	border-radius: 0.5rem;
+}
+
+header h1 {
+	padding: 1rem 0 0 0;
+	font-weight: bold;
+	text-align: center;
+	color: #607d8b;
+}
+
+#bell {
+	display: block;
+	text-align: center;
+}
+
+h2 {
+	color: #607d8b;
+	text-align: center;
+}
+
+#minus, #session-time, #plus {
+	float: left;
+}
+
+#minus-break, #break-time, plus-break {
+	float: left;
+} 
+
+.set-session {
+	font-size: 1rem;
+	padding: 0 0 0 2rem;
+	float: left;
+}
+
+.set-break {
+	padding: 0 2rem 0 0;
+	float: right;
+	font-size: 1rem;
+}
+
+#session-time, #break-time {
+	font-size: 2rem;
+	padding: 1rem 2rem 0 2rem;
+}
+
+#start, #resume, #pause, #reset {
+	margin: 0.2rem;
+	text-align: center;
+	width: 6rem;
+	height: 4rem;
+	border-radius: 0.5rem;
+	font-size: 1.5rem;
+}
+
+#minus, #plus, #minus-break, #plus-break {
+	border-radius: 0.4rem;
+	width: 3rem;
+	font-size: 2rem;
+	padding: 0.5rem;
+	display: block;
+	float: left;
+}
+
+.pomodoro-clock {
+	clear: both;
+}
+
+#clock {
+	margin: 0 auto;
+	width: 29%;
+	padding: 60px;
+	border: 2px solid #607d8b;
+	border-radius: 50%;
+	font-size: 5rem;
+}
+
+#controls {
+	margin-top: 2rem;
+}
+.center {
+	display: block;
+	text-align: center;
+}
+
+footer {
+	margin: 1rem 0 1rem 0;
+	padding: 0.5rem;
+	text-align: center;
+}
