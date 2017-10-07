@@ -1,12 +1,14 @@
-body {
+html, body {
 	margin: 0;
 	padding: 0;
 }
 
 #container {
 	background: rgba(200, 222, 255, 0.4);
-	width: 60%;
+	width: 80%;
+	min-width: 320px;
 	margin: 0 auto;
+	margin-top: -0.8rem;
 	border-radius: 0.5rem;
 }
 
@@ -72,6 +74,7 @@ h2 {
 
 .pomodoro-clock {
 	clear: both;
+	padding-top: 2rem;
 }
 
 #clock {
@@ -84,7 +87,7 @@ h2 {
 }
 
 #controls {
-	margin-top: 2rem;
+	margin-top: 1rem;
 }
 .center {
 	display: block;
@@ -95,4 +98,30 @@ footer {
 	margin: 1rem 0 1rem 0;
 	padding: 0.5rem;
 	text-align: center;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 575px) and (min-width: 325px){
+     #container {
+    	width: 100%;
+    }
+}
+
+@media screen and (max-width: 465px) and (min-width: 325px){
+     #container {
+    	width: 100%;
+    }
+
+    .set-session, .set-break {
+    	clear: both;
+    	display: inline-block;
+    	margin: 0 auto;
+    	margin-left: 8rem;
+    	padding: 0;
+    	float: left;
+    	
+    
+    }
+
 }
